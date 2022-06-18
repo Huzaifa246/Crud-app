@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+.info input {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.info button {
+  width: 250px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.info button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.display {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display button {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+.display input {
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+.display button:hover {
+  background: linear-gradient(to bottom, #ffb2ff 5%, #fc9797 100%);
+  cursor: pointer;
+  background-color: crimson;
+}
+.display:active {
+  position: relative;
+  top: 1px;
+}
+table {
+  border-radius: 5px;
+  background-color: peachpuff;
+}
